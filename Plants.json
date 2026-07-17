@@ -159,6 +159,46 @@
             }
         ]
     },
+
+	    "Astral pro bonnie": {
+        "Type": "Single",
+        "Image": "rbxassetid://132003715625819",
+        "Rarity": "Apex",
+        "PlacePrice": 15500,
+        "Max": 1,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 52,
+                "Damage": 150,
+                "Cooldown": 0.1
+            },
+            {
+                "Price": 19999,
+                "Range": 55,
+                "Damage": 350,
+                "Cooldown": 0.1
+            },
+            {
+                "Price": 29999,
+                "Range": 59,
+                "Damage": 450,
+                "Cooldown": 0.1
+            },
+            {
+                "Price": 39999,
+                "Range": 60,
+                "Damage": 750,
+                "Cooldown": 0.1
+            }
+        ]
+    },
         "Sand Castle Foxy": {
         "Type": "Support",
         "Image": "rbxassetid://92986091581137",
