@@ -199,6 +199,46 @@
             }
         ]
     },
+
+	    "Space Foxy": {
+        "Type": "Mega Single",
+        "Image": "rbxassetid://105102155146770",
+        "Rarity": "Secret",
+        "PlacePrice": 650,
+        "Max": 1,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 52,
+                "Damage": 150,
+                "Cooldown": 0.9
+            },
+            {
+                "Price": 850,
+                "Range": 55,
+                "Damage": 350,
+                "Cooldown": 0.9
+            },
+            {
+                "Price": 1250,
+                "Range": 59,
+                "Damage": 450,
+                "Cooldown": 0.9
+            },
+            {
+                "Price": 2250,
+                "Range": 60,
+                "Damage": 750,
+                "Cooldown": 0.7
+            }
+        ]
+    },
         "Sand Castle Foxy": {
         "Type": "Support",
         "Image": "rbxassetid://92986091581137",
