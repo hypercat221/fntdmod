@@ -171,7 +171,49 @@
     "Type": "Aoe",
     "Image": "rbxassetid://125155892111699",
     "Rarity": "Secret",
-    "PlacePrice": 1500, 
+    "PlacePrice": 1111, 
+    "Max": 4,
+    "hitboxOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+    },
+    "Upgrades": [
+        {
+            "Price": 0,
+            "Range": 15,
+            "Damage": 200,
+            "Cooldown": 1.1,
+            "AOERadius": 10
+        },
+        {
+            "Price": 1500,
+            "Range": 18,
+            "Damage": 320, 
+            "Cooldown": 1,
+            "AOERadius": 12 
+        },
+        {
+            "Price": 2500,
+            "Range": 22,
+            "Damage": 480,
+            "Cooldown": 0.9,
+            "AOERadius": 14
+        },
+        {
+            "Price": 4000,
+            "Range": 25,
+            "Damage": 700,
+            "Cooldown": 0.9,
+            "AOERadius": 16
+        }
+    ]
+},
+	"Exe1x1x1x1": {
+    "Type": "Aoe",
+    "Image": "rbxassetid://125155892111699",
+    "Rarity": "Ultimate",
+    "PlacePrice": 1111, 
     "Max": 4,
     "hitboxOffset": {
         "X": 0,
@@ -190,21 +232,21 @@
             "Price": 1500,
             "Range": 18,
             "Damage": 320, 
-            "Cooldown": 0.9,
+            "Cooldown": 1,
             "AOERadius": 12 
         },
         {
             "Price": 2500,
             "Range": 22,
             "Damage": 480,
-            "Cooldown": 0.8,
+            "Cooldown": 18,
             "AOERadius": 14
         },
         {
             "Price": 4000,
             "Range": 25,
-            "Damage": 700,
-            "Cooldown": 0.6,
+            "Damage": 1000,
+            "Cooldown": 1.1,
             "AOERadius": 16
         }
     ]
