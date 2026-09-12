@@ -167,6 +167,44 @@
             }
         ]
     },
+	    "1x1x1x1": {
+        "Type": "Single",
+        "Image": "rbxassetid://18356274992",
+        "Rarity": "Rare",
+        "PlacePrice": 900,
+        "Max": 4,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 15,
+                "Damage": 180,
+                "Cooldown": 1
+            },
+            {
+                "Price": 1200,
+                "Range": 18,
+                "Damage": 240,
+                "Cooldown": 1
+            },
+            {
+                "Price": 2000,
+                "Range": 20,
+                "Damage": 375,
+                "Cooldown": 0.75
+            },
+            {
+                "Price": 3000,
+                "Range": 20,
+                "Damage": 600,
+                "Cooldown": 0.75
+            }
+        ]
+    },
         "Phantom Chica": {
         "Type": "Explosion",
         "Image": "rbxassetid://18356356760",
