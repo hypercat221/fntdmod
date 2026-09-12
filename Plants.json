@@ -167,11 +167,11 @@
             }
         ]
     },
-	    ["1x1x1x1"] = {
+	"1x1x1x1": {
     "Type": "Aoe",
     "Image": "rbxassetid://125155892111699",
     "Rarity": "Secret",
-    "PlacePrice": 1500, -- Чуть повысил, чтобы соответствовать редкости Secret
+    "PlacePrice": 1500, 
     "Max": 4,
     "hitboxOffset": {
         "X": 0,
@@ -182,30 +182,30 @@
         {
             "Price": 0,
             "Range": 15,
-            "Damage": 200,      -- Базовый урон
+            "Damage": 200,
             "Cooldown": 1.0,
-            "AOERadius": 10     -- Добавил радиус взрыва для 1 уровня
+            "AOERadius": 10
         },
         {
             "Price": 1500,
             "Range": 18,
-            "Damage": 320,      -- Заметный скачок силы
-            "Cooldown": 0.9,    -- Чуть быстрее стреляет
-            "AOERadius": 12     -- Взрыв становится шире
+            "Damage": 320, 
+            "Cooldown": 0.9,
+            "AOERadius": 12 
         },
         {
             "Price": 2500,
             "Range": 22,
-            "Damage": 480,      -- Высокий урон для мид-гейма
-            "Cooldown": 0.8,    -- Ещё быстрее
+            "Damage": 480,
+            "Cooldown": 0.8,
             "AOERadius": 14
         },
         {
             "Price": 4000,
             "Range": 25,
-            "Damage": 700,      -- ИСПРАВЛЕНО: было 100, стало 700. Мощный финал!
-            "Cooldown": 0.6,    -- Очень быстрая перезарядка для AOE
-            "AOERadius": 16     -- Огромный радиус поражения на макс. уровне
+            "Damage": 700,
+            "Cooldown": 0.6,
+            "AOERadius": 16
         }
     ]
 }
