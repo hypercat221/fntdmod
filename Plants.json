@@ -170,8 +170,8 @@
 	    "1x1x1x1": {
         "Type": "Single",
         "Image": "rbxassetid://18356274992",
-        "Rarity": "Rare",
-        "PlacePrice": 900,
+        "Rarity": "Ultimate",
+        "PlacePrice": 1111,
         "Max": 4,
         "hitboxOffset": {
             "X": 0,
