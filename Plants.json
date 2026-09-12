@@ -290,7 +290,7 @@
         ]
     },
 	   "VoidExeChica": {
-        "Type": "Continuous",
+        "Type": "Continuous + slow",
         "Image": "rbxassetid://18356356760",
         "Rarity": "Apex",
         "PlacePrice": 3000,
@@ -304,30 +304,38 @@
             {
                 "Price": 0,
                 "Range": 25,
-                "Damage": 600,
-                "Cooldown": 0.25,
-                "AOERadius": 9
+                "Damage": 100,
+                "Cooldown": 0.55,
+                "AOERadius": 9,
+				 "Slow": 0.7,
+                 "SlowTime": 2 
             },
             {
                 "Price": 5000,
                 "Range": 28,
-                "Damage": 900,
+                "Damage": 100,
                 "Cooldown": 0.25,
-				"AOERadius": 11
+				"AOERadius": 11,
+				"Slow": 0.7,
+                "SlowTime": 2 
             },
             {
                 "Price": 6000,
                 "Range": 30,
                 "Damage": 1200,
-                "Cooldown": 0.25,
-				"AOERadius": 12
+                "Cooldown": 0.15,
+				"AOERadius": 12,
+				"Slow": 0.7,
+                "SlowTime": 2 
             },
             {
                 "Price": 7000,
                 "Range": 32,
-                "Damage": 1500,
-                "Cooldown": 0.25,
-				"AOERadius": 14
+                "Damage": 100,
+                "Cooldown": 0.1,
+				"AOERadius": 14,
+				"Slow": 0.7,
+                "SlowTime": 2 
             }
         ]
     },
