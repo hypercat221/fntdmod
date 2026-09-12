@@ -167,44 +167,48 @@
             }
         ]
     },
-	    "1x1x1x1": {
-        "Type": "Aoe",
-        "Image": "rbxassetid://125155892111699",
-        "Rarity": "Secret",
-        "PlacePrice": 1111,
-        "Max": 4,
-        "hitboxOffset": {
-            "X": 0,
-            "Y": 0,
-            "Z": 0
-        },
-        "Upgrades": [
-            {
-                "Price": 0,
-                "Range": 15,
-                "Damage": 180,
-                "Cooldown": 1
-            },
-            {
-                "Price": 1200,
-                "Range": 18,
-                "Damage": 240,
-                "Cooldown": 1
-            },
-            {
-                "Price": 2000,
-                "Range": 20,
-                "Damage": 375,
-                "Cooldown": 0.75
-            },
-            {
-                "Price": 3000,
-                "Range": 20,
-                "Damage": 100,
-                "Cooldown": 0.75
-            }
-        ]
+	    ["1x1x1x1"] = {
+    "Type": "Aoe",
+    "Image": "rbxassetid://125155892111699",
+    "Rarity": "Secret",
+    "PlacePrice": 1500, -- Чуть повысил, чтобы соответствовать редкости Secret
+    "Max": 4,
+    "hitboxOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
     },
+    "Upgrades": [
+        {
+            "Price": 0,
+            "Range": 15,
+            "Damage": 200,      -- Базовый урон
+            "Cooldown": 1.0,
+            "AOERadius": 10     -- Добавил радиус взрыва для 1 уровня
+        },
+        {
+            "Price": 1500,
+            "Range": 18,
+            "Damage": 320,      -- Заметный скачок силы
+            "Cooldown": 0.9,    -- Чуть быстрее стреляет
+            "AOERadius": 12     -- Взрыв становится шире
+        },
+        {
+            "Price": 2500,
+            "Range": 22,
+            "Damage": 480,      -- Высокий урон для мид-гейма
+            "Cooldown": 0.8,    -- Ещё быстрее
+            "AOERadius": 14
+        },
+        {
+            "Price": 4000,
+            "Range": 25,
+            "Damage": 700,      -- ИСПРАВЛЕНО: было 100, стало 700. Мощный финал!
+            "Cooldown": 0.6,    -- Очень быстрая перезарядка для AOE
+            "AOERadius": 16     -- Огромный радиус поражения на макс. уровне
+        }
+    ]
+}
         "Phantom Chica": {
         "Type": "Explosion",
         "Image": "rbxassetid://18356356760",
