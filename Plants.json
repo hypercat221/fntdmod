@@ -168,9 +168,9 @@
         ]
     },
 	    "1x1x1x1": {
-        "Type": "Single",
-        "Image": "rbxassetid://18356274992",
-        "Rarity": "Ultimate",
+        "Type": "Aoe",
+        "Image": "rbxassetid://125155892111699",
+        "Rarity": "Secret",
         "PlacePrice": 1111,
         "Max": 4,
         "hitboxOffset": {
@@ -200,7 +200,7 @@
             {
                 "Price": 3000,
                 "Range": 20,
-                "Damage": 600,
+                "Damage": 100,
                 "Cooldown": 0.75
             }
         ]
